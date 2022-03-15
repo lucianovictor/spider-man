@@ -1,0 +1,47 @@
+.logo{
+  width: 100%;
+  margin: 150px auto 0px auto;
+  text-align: center;
+}
+
+.logo img{
+ height: 125px;
+ display: flex;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.logo button{
+  width: 200px;
+  height: 40px;
+  margin-top: 20px;
+  border-radius: 10px 0px 0px 0px;
+  border: solid 1px var(--primary-color);
+  background-color: rgba(29, 29, 29, 0.5);
+  cursor: pointer;
+  color: #fff;
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+}
+
+.logo Play {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+
+  width: 100%;
+  max-width: 450px;
+  margin-top: 2.875rem;
+}
+
+.logo button:hover{
+  transform: scale(1.05);
+  transition: 0.5s;
+  background-color: rgba(29, 29, 29);
+}
+
+@media (max-width:500px){
+  .logo img{
+      height: 100px; 
+  }
+}
